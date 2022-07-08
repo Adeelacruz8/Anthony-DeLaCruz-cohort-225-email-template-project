@@ -1,29 +1,104 @@
-body{background-color:#121212}
+body{background-color:#0a0909}
 
-.col{border:solid;
-     color:white }
+#globe{color: rgb(223, 52, 52);
+text-align: center;}
 
-     .icons{text-align: center;}
+h3{text-align: center;
+   color:cyan}
 
-     #mailicon{background-color: red;}
+   #time{color:rgb(17, 168, 17);
+        text-shadow: #fff;                         }
 
-     .Title{color:aqua;
-            text-align: center;
-            text 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.item-container
+{margin: 0.3rem 0 0 0;
+padding: 0 0.5rem 0 1.5rem;
+border: 1px solid;
+color:white;
+border-radius: 10px;
+display: flex;}
+
+
+
+
+
+
+
+.email-from {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration:wavy;
+    color:orange;
+    font-weight: lighter;
+    font-family: 'Trattatello';
+    border: outset;
+    border-color: rgb(255, 106, 0);
     
-    
-                                }
+    margin:20px
+}
 
-#eye {color: red;
+.email-subject {
+    font-size: 0.9rem;
+}
 
-     
+.item-column-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+
+
+.profilepic{shape-outside: circle();
+border: 1px solid;
+  border-color: rgb(194, 30, 71);              
+
                     }
 
-.p{color:white;
-font-size: small;}
 
-#line{margin: auto 
-      
-                         }
+#name{  font-size: 1rem;
+    font-weight: bold;
+    text-decoration:wavy;
+    color:orange;
+    font-weight: lighter;
+    font-family: 'Trattatello';
+    font-size: 14px;;
+    
+     display: flex;    
+         }
+
+#online{color:green
+}
+
+#felixdiv{display: flex;
+justify-content: right;
+justify-content: space-around;}
+
+#notactive{color:yellow}
+
+.Rastaborder{
+border:groove 1px green}
 
 
+
+
+
+
+  
